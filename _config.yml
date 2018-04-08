@@ -1,6 +1,6 @@
 # main text of home
 name: John Ko
-bio: “부정적으로 생각해봤자 변하는 것은 없어요. 가장 최고의 방법은 늘 긍정적인 마음을 갖는 겁니다.”
+bio: “부정적으로 생각해봤자 변하는 것은 없어요. <br> 가장 최고의 방법은 늘 긍정적인 마음을 갖는 겁니다.”
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -55,7 +55,7 @@ email: kimo87@gmail.com
 authors:
     johndoe:
         name: John Ko
-        bio: “부정적으로 생각해봤자 변하는 것은 없어요. 가장 최고의 방법은 늘 긍정적인 마음을 갖는 겁니다.”
+        bio: “부정적으로 생각해봤자 변하는 것은 없어요. <br>  가장 최고의 방법은 늘 긍정적인 마음을 갖는 겁니다.”
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
