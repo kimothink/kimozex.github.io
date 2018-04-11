@@ -1,5 +1,5 @@
 ---
-title: "리터럴(Literal) 과 Expression(표현식) 및 Statements(문)"
+title: "리터럴(Literal) 과 표현식(Expression) 및 문(Statements)"
 layout: post
 date: 2018-04-24 22:44
 image: /assets/images/markdown.jpg
