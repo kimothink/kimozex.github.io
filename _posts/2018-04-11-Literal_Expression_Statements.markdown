@@ -1,5 +1,5 @@
 ---
-title: "리터럴(Literal) 과 표현식(Expression) 및 문(Statements)"
+title: "리터럴(Literal)과 표현식(Expression)및 문장(Statements)"
 layout: post
 date: 2018-04-24 22:44
 image: /assets/images/markdown.jpg
@@ -12,7 +12,7 @@ author: john Ko
 description: Fundamental Programming
 ---
 
-## Title : 리터럴(Literal) 과 표현식(Expression) 및 문(Statements)
+## Title : 리터럴(Literal) 과 표현식(Expression) 및 문장(Statements)
 
 ### 리터럴(Literal)
 
@@ -40,9 +40,9 @@ int data = 1; // 값 1은 리터럴(Literal)이라고 부릅니다.
 
 
 
-### 문(Statements) 
+### 문장(Statements) 
 
-문장은 한 라인으로 처리되는 단순 문장으로부터 여러라인을 처리하는 블록 문장 등이 있다. 특히 제어문, 순환문 등은 여러 라인을 하나의 블록으로 묶어서 처리하므로 블록 문장이다. 
+문장은 한 라인으로 처리되는 단순 문장으로부터 여러라인을 처리하는 **블록 문장** 등이 있다. 특히 제어문, 순환문 등은 여러 라인을 하나의 블록으로 묶어서 처리하므로 블록 문장이다. 
 
 ``` x = 3 ; //할당문  ```
 
