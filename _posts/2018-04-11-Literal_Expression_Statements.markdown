@@ -12,7 +12,7 @@ author: john Ko
 description: Fundamental Programming
 ---
 
-## Title : 리터럴(Literal) 과 Expression(표현식) 및 Statements(문)
+## Title : 리터럴(Literal) 과 표현식(Expression) 및 문(Statements)
 
 ### 리터럴(Literal)
 
