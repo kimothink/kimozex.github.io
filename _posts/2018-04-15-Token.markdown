@@ -6,7 +6,7 @@ image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - Fundamental Programming
-star: true
+star: false
 category: blog
 author: john Ko
 description: Fundamental Programming
