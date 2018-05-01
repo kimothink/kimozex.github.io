@@ -14,7 +14,7 @@ author: john Ko
 description: Coding
 ---
 
-## Title : [Python]확장명을 이용한 파일 삭제
+## Title : [Python]확장명을 이용한 파일삭제
 
 
 
