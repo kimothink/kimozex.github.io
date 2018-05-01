@@ -8,7 +8,7 @@ tag:
 - Python Programming
 - Coding
 - Python
-star: true
+star: false
 category: blog
 author: john Ko
 description: Coding
