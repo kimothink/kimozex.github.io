@@ -1,5 +1,5 @@
 ---
-title: "확장자명으로 파일 삭제"
+title: "[Python][Coding]확장자명으로 파일 삭제"
 layout: post
 date: 2018-05-01 11:44
 image: /assets/images/markdown.jpg
