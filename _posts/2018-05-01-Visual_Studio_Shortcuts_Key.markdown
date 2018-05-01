@@ -17,7 +17,7 @@ description: Coding
 
 주로 쓰는 단축키를 정리해 보았습니다. 그리고 몇몇 사이트를 참조 하였습니다.
 
-그 사이트는 아래와 같습니다.
+참조 사이트는 아래와 같습니다.
 
 1. [jacking75](https://jacking75.github.io/VS_tips01/) online game server programmer 
 2. [비주얼스튜디오-단축키-모음](http://ppost.tistory.com/entry/비주얼스튜디오-단축키-모음)
