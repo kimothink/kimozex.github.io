@@ -1,5 +1,5 @@
 ---
-title: "[Python][Coding]확장자명으로 파일 삭제"
+title: "[Python][Coding]확장명을 이용한 파일 삭제"
 layout: post
 date: 2018-05-01 11:44
 image: /assets/images/markdown.jpg
@@ -14,7 +14,7 @@ author: john Ko
 description: Coding
 ---
 
-## Title : [Python]확장자명으로 파일 삭제
+## Title : [Python]확장명을 이용한 파일 삭제
 
 
 
