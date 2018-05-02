@@ -1,0 +1,1 @@
+kibcnewpoker.exe 211.41.237.9 9000 test3 101002.gif 1 0 0 0 5

@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NeoNGostop - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\HP_Owner\LOCALS~1\Temp\RSP825.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/NeoNGostop.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\Ado.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\Channel.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\CmdProcess.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\Comfunc.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\DbQ.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\dtrace.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\JackPotQ.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\main.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\Manager.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\NGFrame.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\RoomList.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\TxtQ.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\UserDescriptor.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\World.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\Card\CardPack.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\Card\PokerEngine.cpp"
+"C:\Documents and Settings\HP_Owner\바탕 화면\게임_3종\써버쏘스\poker\GameServer\GameServer\NeoNGostop\Card\PokerEvalution.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HP_Owner\LOCALS~1\Temp\RSP825.tmp" 
+Creating temporary file "C:\DOCUME~1\HP_Owner\LOCALS~1\Temp\RSP826.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib winmm.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Poker7GS(D).pdb" /debug /machine:I386 /out:"Debug/Poker7GS(D).exe" /pdbtype:sept 
+".\Debug\Ado.obj"
+".\Debug\Channel.obj"
+".\Debug\CmdProcess.obj"
+".\Debug\Comfunc.obj"
+".\Debug\DbQ.obj"
+".\Debug\dtrace.obj"
+".\Debug\JackPotQ.obj"
+".\Debug\main.obj"
+".\Debug\Manager.obj"
+".\Debug\NGFrame.obj"
+".\Debug\RoomList.obj"
+".\Debug\TxtQ.obj"
+".\Debug\UserDescriptor.obj"
+".\Debug\World.obj"
+".\Debug\CardPack.obj"
+".\Debug\PokerEngine.obj"
+".\Debug\PokerEvalution.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\HP_Owner\LOCALS~1\Temp\RSP826.tmp"
+<h3>Output Window</h3>
+Compiling...
+Ado.cpp
+Channel.cpp
+CmdProcess.cpp
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(108) : warning C4305: 'argument' : truncation from 'const int' to 'char'
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(108) : warning C4309: 'argument' : truncation of constant value
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(547) : warning C4305: 'argument' : truncation from 'const int' to 'char'
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(547) : warning C4309: 'argument' : truncation of constant value
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(555) : warning C4305: 'argument' : truncation from 'const int' to 'char'
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(555) : warning C4309: 'argument' : truncation of constant value
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(690) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(727) : warning C4305: 'argument' : truncation from 'const int' to 'char'
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(727) : warning C4309: 'argument' : truncation of constant value
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1479) : warning C4305: 'argument' : truncation from 'const int' to 'char'
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1479) : warning C4309: 'argument' : truncation of constant value
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1526) : warning C4305: 'argument' : truncation from 'const int' to 'char'
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1526) : warning C4309: 'argument' : truncation of constant value
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1557) : warning C4305: 'argument' : truncation from 'const int' to 'char'
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1557) : warning C4309: 'argument' : truncation of constant value
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1589) : warning C4101: 'd' : unreferenced local variable
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1625) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1641) : warning C4305: '=' : truncation from 'const double' to 'float'
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1650) : warning C4244: '=' : conversion from 'double' to '__int64', possible loss of data
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1718) : warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1721) : warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1763) : warning C4244: 'initializing' : conversion from 'float' to '__int64', possible loss of data
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(1787) : warning C4244: 'initializing' : conversion from 'float' to '__int64', possible loss of data
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(2127) : warning C4101: 'pNextUserList' : unreferenced local variable
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(2156) : warning C4101: 'pNextUserList' : unreferenced local variable
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\cmdprocess.cpp(2211) : warning C4101: 'pNextUserList' : unreferenced local variable
+Comfunc.cpp
+DbQ.cpp
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\dbq.cpp(258) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\dbq.cpp(265) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\dbq.cpp(370) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\dbq.cpp(583) : warning C4101: 'dec' : unreferenced local variable
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\dbq.cpp(665) : warning C4101: 'dec' : unreferenced local variable
+dtrace.cpp
+JackPotQ.cpp
+main.cpp
+Manager.cpp
+NGFrame.cpp
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\ngframe.cpp(108) : warning C4101: 'pNextUserList' : unreferenced local variable
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\ngframe.cpp(488) : warning C4101: 'pNextUserList' : unreferenced local variable
+RoomList.cpp
+TxtQ.cpp
+UserDescriptor.cpp
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\userdescriptor.cpp(221) : warning C4101: 'bCmd' : unreferenced local variable
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\userdescriptor.cpp(221) : warning C4101: 'bErrorCode' : unreferenced local variable
+World.cpp
+CardPack.cpp
+PokerEngine.cpp
+c:\documents and settings\hp_owner\바탕 화면\게임_3종\써버쏘스\poker\gameserver\gameserver\neongostop\card\pokerengine.cpp(268) : warning C4101: 'i' : unreferenced local variable
+PokerEvalution.cpp
+Linking...
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+Poker7GS(D).exe - 0 error(s), 37 warning(s)
+</pre>
+</body>
+</html>

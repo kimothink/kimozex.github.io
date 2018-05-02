@@ -1,0 +1,104 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zenpoker - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/zenpoker.res" /d "_DEBUG" /d "_AFXDLL" "D:\Work\GameRoom_匆府府\poker\newzenpoker\zenpoker.rc"" 
+Creating temporary file "C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP27.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/zenpoker.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Work\GameRoom_匆府府\嘎绊\NewGostopClient\AdminLogin.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\AlarmMsg.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\Animation.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\ChipAni.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\CScrollText.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\CTextList.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\dtrace.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\HttpView.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\ImageEx.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\MainFrm.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\NetworkSock.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\NGNCSProtocol.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\TxtQ.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\UserList.cpp"
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\zenpoker.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP27.tmp" 
+Creating temporary file "C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP28.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/zenpoker.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Work\GameRoom_匆府府\poker\newzenpoker\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP28.tmp" 
+Creating temporary file "C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+..\\..\\..\\cdxlib\\Release\\cdxlib.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/kibcnewpoker.pdb" /debug /machine:I386 /out:"Debug/kibcnewpoker.exe" /pdbtype:sept 
+".\Debug\AdminLogin.obj"
+".\Debug\AlarmMsg.obj"
+".\Debug\Animation.obj"
+".\Debug\ChipAni.obj"
+".\Debug\CScrollText.obj"
+".\Debug\CTextList.obj"
+".\Debug\dtrace.obj"
+".\Debug\HttpView.obj"
+".\Debug\ImageEx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\NetworkSock.obj"
+".\Debug\NGClientControl.obj"
+".\Debug\NGNCSProtocol.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TxtQ.obj"
+".\Debug\UserList.obj"
+".\Debug\zenpoker.obj"
+".\Debug\zenpoker.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP29.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AdminLogin.cpp
+AlarmMsg.cpp
+Animation.cpp
+ChipAni.cpp
+CScrollText.cpp
+CTextList.cpp
+dtrace.cpp
+HttpView.cpp
+ImageEx.cpp
+MainFrm.cpp
+D:\Work\GameRoom_匆府府\poker\newzenpoker\MainFrm.cpp(975) : warning C4101: 'm_dwAniUpdateThread' : unreferenced local variable
+NetworkSock.cpp
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NetworkSock.cpp(367) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NetworkSock.cpp(368) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NetworkSock.cpp(369) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+NGClientControl.cpp
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp(235) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp(236) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp(237) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp(326) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp(729) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp(850) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp(137) : warning C4101: 'l_sStartUserCard' : unreferenced local variable
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp(150) : warning C4101: 'l_sAllUserJokBo' : unreferenced local variable
+D:\Work\GameRoom_匆府府\poker\newzenpoker\NGClientControl.cpp(151) : warning C4101: 'l_sGameWaitInfo' : unreferenced local variable
+NGNCSProtocol.cpp
+TxtQ.cpp
+UserList.cpp
+zenpoker.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+kibcnewpoker.exe - 0 error(s), 14 warning(s)
+</pre>
+</body>
+</html>

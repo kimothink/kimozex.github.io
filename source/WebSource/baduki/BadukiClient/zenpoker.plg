@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zenpoker - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/zenpoker.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Game\WebSource\baduki\BadukiClient\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP11.tmp" 
+Creating temporary file "C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+..\\..\\..\\cdxlib\\Release\\cdxlib.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/baduki.pdb" /debug /machine:I386 /out:"Debug/baduki.exe" /pdbtype:sept 
+.\Debug\AdminLogin.obj
+.\Debug\AlarmMsg.obj
+.\Debug\Animation.obj
+.\Debug\ChipAni.obj
+.\Debug\CScrollText.obj
+.\Debug\CTextList.obj
+.\Debug\dtrace.obj
+.\Debug\HttpView.obj
+.\Debug\ImageEx.obj
+.\Debug\MainFrm.obj
+.\Debug\NetworkSock.obj
+.\Debug\NGClientControl.obj
+.\Debug\NGNCSProtocol.obj
+.\Debug\StdAfx.obj
+.\Debug\TxtQ.obj
+.\Debug\UserList.obj
+.\Debug\zenpoker.obj
+.\Debug\zenpoker.res
+]
+Creating command line "link.exe @C:\DOCUME~1\rnd\LOCALS~1\Temp\RSP12.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainFrm.cpp
+D:\Game\WebSource\baduki\BadukiClient\MainFrm.cpp(940) : warning C4101: 'm_dwAniUpdateThread' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+baduki.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
