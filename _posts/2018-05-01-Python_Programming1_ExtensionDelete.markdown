@@ -1,5 +1,5 @@
 ---
-title: "[Python][Coding]확장명을 이용한 파일 삭제"
+title: "[Python][Coding]확장명을 이용한 파일삭제"
 layout: post
 date: 2018-05-01 11:44
 image: /assets/images/markdown.jpg
@@ -8,6 +8,7 @@ tag:
 - Python Programming
 - Coding
 - Python
+- 생활코딩
 star: true
 category: blog
 author: john Ko
