@@ -21,7 +21,11 @@ description: Coding
 
 ### 한줄로 구구단 코딩하기 
 
+{% highlight html %}
+
 <iframe width="560" height="310" src="https://www.youtube.com/watch?v=CuOwAqEk348" frameborder="0" allowfullscreen></iframe>
+
+{% endhighlight %}
 
 예전에  본 드라마의 내용이다. 
 
@@ -37,7 +41,7 @@ description: Coding
 print([(lambda x,y : '{}x{}={}'.format(x, y, x*y))(x, y) for x in range(2,10) for y in range(1,10)])
  ```
 
-![Alt text](https://github.com/kimozex/kimozex.github.io/blob/master/imgs/GuGuDan.jpg)
+![결과값](https://github.com/kimozex/kimozex.github.io/blob/master/imgs/GuGuDan.jpg)
 
 
 
