@@ -1,7 +1,7 @@
 ---
 title: "[Python_Coding]한줄로 구구단 코딩하기"
 layout: post
-date: 2018-05-01 11:44
+date: 2018-05-03 01:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -21,7 +21,7 @@ description: Coding
 
 ### 한줄로 구구단 코딩하기 
 
-
+<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="560" height="310" src="https://www.youtube.com/watch?v=CuOwAqEk348" frameborder="0" allowfullscreen></iframe>
 
