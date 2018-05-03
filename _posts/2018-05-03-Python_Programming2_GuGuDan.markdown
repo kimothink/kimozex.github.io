@@ -21,9 +21,7 @@ description: Coding
 
 ### 한줄로 구구단 코딩하기 
 
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="560" height="310" src="https://www.youtube.com/watch?v=CuOwAqEk348" frameborder="0" allowfullscreen></iframe>
+![주상욱 구구단 코딩](https://www.youtube.com/watch?v=CuOwAqEk348)
 
 
 
