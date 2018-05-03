@@ -1,5 +1,5 @@
 ---
-title: "[Python_Coding2]한줄로 구구단 코딩하기"
+title: "[Python_Coding]한줄로 구구단 코딩하기"
 layout: post
 date: 2018-05-01 11:44
 image: /assets/images/markdown.jpg
