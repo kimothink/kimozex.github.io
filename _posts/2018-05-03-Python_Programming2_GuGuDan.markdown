@@ -1,4 +1,4 @@
----
+﻿---
 title: "[Python_Coding]한줄로 구구단 코딩하기"
 layout: post
 date: 2018-05-03 01:44
@@ -21,7 +21,7 @@ description: Coding
 
 ### 한줄로 구구단 코딩하기 
 
-![주상욱 구구단 코딩](https://www.youtube.com/watch?v=CuOwAqEk348)
+![주상욱 구구단 코딩](https://youtu.be/CuOwAqEk348)
 
 
 
