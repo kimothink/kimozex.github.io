@@ -31,7 +31,7 @@ description: Coding
 
 ### 찾기
 
-현재페이지 문자 검색 : **Ctrl+F **
+현재페이지 문자 검색 : **Ctrl+F**
 
 전체 페이지 문자 검색 : **Ctrl+Shift+F** 
 
