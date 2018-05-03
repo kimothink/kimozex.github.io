@@ -66,7 +66,7 @@ description: Coding
 북마크 설정 / 해제 : **Ctrl-K , K** 
 북마크 모두 해제 : **Ctrl-K , L**  
 북마크 다음으로 이동 : **Ctrl-K , N**  
-북마크 이전으로 이동 : **Ctrl-K , P  **
+북마크 이전으로 이동 : **Ctrl-K , P**
 
 
 
