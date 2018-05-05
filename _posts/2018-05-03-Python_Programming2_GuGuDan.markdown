@@ -21,7 +21,7 @@ description: Coding
 
 ### 한줄로 구구단 코딩하기 
 
-![주상욱 구구단 코딩](https://youtu.be/CuOwAqEk348)
+https://youtu.be/CuOwAqEk348
 
 
 
