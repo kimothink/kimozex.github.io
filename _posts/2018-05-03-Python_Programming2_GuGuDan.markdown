@@ -21,7 +21,7 @@ description: Coding
 
 ### 한줄로 구구단 코딩하기 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/6Az2cNU7gUw" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/watch?v=CuOwAqEk348" frameborder="0" gesture="media" allowfullscreen=""></iframe>
 
 
 예전에  본 드라마의 내용이다. 
