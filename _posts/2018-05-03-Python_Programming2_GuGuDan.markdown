@@ -21,8 +21,8 @@ description: Coding
 
 ### 한줄로 구구단 코딩하기 
 
+{ % youtube https://www.youtube.com/watch?v=CuOwAqEk348&feature=youtu.be % }
 
-![구구단](https://youtu.be/CuOwAqEk348)
 
 
 예전에  본 드라마의 내용이다. 
