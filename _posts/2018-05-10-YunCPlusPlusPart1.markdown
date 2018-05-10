@@ -1,16 +1,17 @@
-﻿---
-title: "Part01 C++로의 전환"
+---
+title: "[CPlusPlus_Study]C++로의 전환"
 layout: post
-date: 2018-05-10 0:44
+date: 2018-05-10 00:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- CPlusPlus
+- CPlusPlus Programming
 - Coding
-star: false
-category: blog
-author: john Ko
-description: Coding
+- CPlusPlus
+  star: false
+  category: blog
+  author: john Ko
+  description: Coding
 ---
 
 ## Title : Part01 C++로의 전환
