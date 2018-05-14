@@ -61,6 +61,8 @@ int main()
   | 매개 변수의 자료 형이 다를 경우 | True          |
   |   매개 변수의 수가 다를 경우    | True          |
   |    반환형의 타입이 다를 경우    | False         |
+  |         레퍼런스의 타입         | True          |
+  |           const 유무            | False         |
 
 ```c++
 #include<iostream>
@@ -218,4 +220,4 @@ int main()
 
 * 이름공간을 사용하여 별칭을 작성할수 있다. ex)namespace abc=aaa::bb::cc
 
-  
+  ADL

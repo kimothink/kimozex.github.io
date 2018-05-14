@@ -189,14 +189,14 @@ tag:
 
       
 
-**malloc & frre를 대신하는 new&delete**
+**malloc & free를 대신하는 new&delete**
 
 * int형 변수의 할당            int * ptr1=new int;
 * double형 변수의 할당          double * ptr2=new double
 * 길이가 3인 int형 배열의 할당 . int* arr1=new int[3]
 * 길이가 7인 double형 배열의 할당  double * arr2=new double[7];
 
-new는 malloc을 대한하는 메로리의 동적할당 방법 크기를 바이트 단위로 계산하는 일을 거치지 않아도 된다.
+new는 malloc을 대한하는 메모리의 동적할당 방법 크기를 바이트 단위로 계산하는 일을 거치지 않아도 된다.
 
 * 앞서 할당한 int 형 변수의 소멸 delete prt1;
 * 앞서 할당한 double형 변수의 소멸  delete prt2;
