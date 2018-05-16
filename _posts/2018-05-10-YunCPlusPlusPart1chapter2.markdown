@@ -1,17 +1,15 @@
----
-title: "[CPlusPlus_Study]C++로의 전환"
+﻿---
+title: "[열혈강의]Part01 C++로의 전환"
 layout: post
 date: 2018-05-10 00:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- CPlusPlus Programming
-- Coding
 - CPlusPlus
-  star: false
-  category: blog
-  author: john Ko
-  description: Coding
+star: true
+category: blog
+author: john Ko
+description: Fundamental Programming
 ---
 
 ## Title : Part01-02 C++로의 전환
@@ -227,3 +225,146 @@ c언어의 경우 힙영역으로 접근을 위해서는 반드시 포인터를 
 ```
 
 * C++ 표준함수는 네임스페이스가 정의가 되어있으며 함수 오버로딩이 되어있습니다.
+```
+
+
+
+**01-3 매개변수의 디폴트 값**
+
+- 함수를 정의할때 인자 값을 정의 할 수 있습니다.
+
+- 매개 변수는 왼쪽 파라미터 부터 정의 된다.
+
+- 함수의 선언을 별도로 둘때에는 디폴트 값의 선언을 함수의 선언부에 위치 시켜야한다.
+
+  (컴파일러는 함수의 디폴트 값의 지정여부를 알아야 함수의 호출 문장을 적절히 컴파일 할수 있다)
+
+- 전달되는 인자가 왼쪽에서부터 채워지므로 , 함수의 디폴트 인자 값은 오른쪽에서부터 채워져야 한다. 왼쪽부터 채워지면 컴파일 에러가 생긴다.
+
+```c++
+#include<iostream>
+
+void Myfun(int a, int b,int c=20); //함수2 선언 (디폴트 값은 오른쪽에서부터 채워져야한다)
+
+void Myfun(int num=10) //함수1
+{
+	std::cout << num << std::endl;
+}
+
+int main()
+{
+	Myfun(); //함수1 호출
+	Myfun(20);//함수1 호출
+	Myfun(30, 40); //함수2 호출
+    return 0;
+}
+
+void Myfun(int num1 ,int num2 ,int num3) //함수2
+{
+	std::cout << num1 << ' ' <<num2<< std::endl;
+}
+```
+
+
+
+**01-4 인라인(inline)함수**
+
+**매크로 함수**  
+
+컴파일이 되기전 선행처리기에 통하여 작성되는 함수 
+
+장점 : 함수가 인라인화 되어 성능의 향상으로 이어질수 있다.(스택에 할당을 받지 않는다.)
+
+단점 : 함수의 정의 방식이 일반함수에 비해서 복잡하다. 복잡한 함수는 정의할수 없다. 
+
+​         
+
+
+
+**인라인 함수**
+
+매크로 함수의 장점을 갖으며 단점을 보완한 것이 C++의 인라인 함수 이다.
+
+인라인 함수 선언은 컴파일러에 의해서 처리되며 컴파일러가 인라인화를 결정합니다. 그러므로
+
+인라인(inline)선언을 하여도 인라인 처리 되지 않을 수 있고, 인라인(inline) 선언이 없어도 인라인 처리
+
+될 수 있습니다.
+
+```c++
+#include <iostream>
+
+inline int SQUARE(int x)
+{
+	return x * x;
+}
+
+int main()
+{
+	std::cout << SQUARE(6) << std::endl;
+
+    return 0;
+}
+
+```
+
+
+
+인라인에 비해 매크로는 자료형이 독립점입니다. 하지만 매크로는 디버깅을 하기에는 힘듭니다.
+
+
+
+**01-5 이름공간(namespace)에 대한 소개**
+
+* 이름 같음으로 인해서 이름충돌이 생기는 것을 막기위해서 namespace를 작성한다.
+
+* 존재하는 이름공간이 다르면 동일한 이름의 함수 및 변수를 선언하는 것이 가능하다.
+
+* 이름공간(namespace)을 사용할때에는 ::(범위 지정 연산자) 을 사용한다.
+
+* 선언된 이름공간의 이름이 동일 하다면 이둘은 동일한 이름 공간으로 간주한다.
+
+* 이름 공간은 중첩이 가능하다
+
+  ```c++
+  #include <iostream>
+  
+  namespace BestComImpl
+  {
+  	void SimpleFunc()
+  	{
+  		std::cout << "BestComImpl이 정의한 함수" << std::endl;
+  	}
+  }
+  
+  namespace ProgComImpl
+  {
+  	void SimpleFunc()
+  	{
+  		std::cout << "ProgComImpl이 정의한 함수" << std::endl;
+  	}
+  }
+  
+  int main()
+  {
+  	BestComImpl::SimpleFunc();
+  	ProgComImpl::SimpleFunc();
+  
+  	return 0;
+  }
+  ```
+
+* using을 이용한 이름공간을 명시 할 수 이쓰며 using namespace std 는 std에 선언된 것을 std라는 이름공간의 선언없이 접근하겠다라는 선언이다.
+
+* 이름공간을 사용하여 별칭을 작성할수 있다. ex)namespace abc=aaa::bb::cc
+
+**ADL**
+
+
+
+
+
+
+
+
+

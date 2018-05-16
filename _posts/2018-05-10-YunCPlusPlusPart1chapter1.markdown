@@ -1,12 +1,12 @@
 ﻿---
-title: "[Yun_CPlusPlus_Study]C++로의 전환"
+title: "[열혈강의]Part01 C++로의 전환"
 layout: post
 date: 2018-05-10 00:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - CPlusPlus
-star: true
+star: flase
 category: blog
 author: john Ko
 description: Fundamental Programming
