@@ -1,19 +1,16 @@
----
-title: "[CPlusPlus_Study]C++로의 전환"
+﻿---
+title: "[Yun_CPlusPlus_Study]C++로의 전환"
 layout: post
 date: 2018-05-10 00:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- CPlusPlus Programming
-- Coding
 - CPlusPlus
-  star: false
-  category: blog
-  author: john Ko
-  description: Coding
+star: true
+category: blog
+author: john Ko
+description: Fundamental Programming
 ---
-
 ## Title : Part01 C++로의 전환
 
 ### Chapter 01 C언어 기반의 C++ 1 
@@ -220,4 +217,13 @@ int main()
 
 * 이름공간을 사용하여 별칭을 작성할수 있다. ex)namespace abc=aaa::bb::cc
 
-  ADL
+**ADL**
+
+
+
+
+
+
+
+
+
