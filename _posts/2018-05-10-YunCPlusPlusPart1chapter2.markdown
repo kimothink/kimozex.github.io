@@ -1,5 +1,5 @@
----
-title: "[열혈강의]Part01 C++로의 전환"
+﻿---
+title: "[열혈강의]Part01_Chapter 02 C++로의 전환"
 layout: post
 date: 2018-05-12 01:44
 image: /assets/images/markdown.jpg
@@ -11,6 +11,7 @@ category: blog
 author: john Ko
 description: Fundamental Programming
 ---
+
 
 ## Title : Part01-02 C++로의 전환
 

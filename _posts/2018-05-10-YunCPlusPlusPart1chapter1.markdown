@@ -1,9 +1,9 @@
-﻿---
-title: "[열혈강의]Part01 C++로의 전환"
+---
+title: "[열혈강의]Part01_Chapter 01 C++로의 전환"
 layout: post
 date: 2018-05-10 00:44
 image: /assets/images/markdown.jpg
-headerImage: false
+headerImage: true
 tag:
 - CPlusPlus
 star: flase
