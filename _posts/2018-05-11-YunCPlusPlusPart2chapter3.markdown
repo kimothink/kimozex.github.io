@@ -1,24 +1,22 @@
----
-title: "[CPlusPlus_Study]C++로의 전환"
+﻿---
+title: "[열혈강의]Part02 Part02 객체지향의 도입"
 layout: post
-date: 2018-05-10 00:44
+date: 2018-05-12 02:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- CPlusPlus Programming
-- Coding
 - CPlusPlus
-  star: false
-  category: blog
-  author: john Ko
-  description: Coding
+star: flase
+category: blog
+author: john Ko
+description: Fundamental Programming
 ---
 
-## Title : Part01-02 C++로의 전환
+## Title : Part02 객체지향의 도입
 
-### Chapter 02 C언어 기반의 C++ 2 
+### Chapter 03 클레스의 기본
 
-**클레스의 기본**
+**C++에서의 구조체**
 
 * 프로그램 분석이 데이터의 그룹화가 생기고  기능의 그룹화가 되며 기능은 데이터의 종속적이다.
 
@@ -103,7 +101,3 @@ tag:
   - 함수의 호출을 가리켜 메시지 패싱(메시지 전달)이라고 한다. 
 
     두 객체간의 주고받는 연관관계의 함수(메시지패싱)
-
-    
-
-  
