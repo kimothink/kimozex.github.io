@@ -1,7 +1,7 @@
-﻿---
+---
 title: "[열혈강의]Part01 C++로의 전환"
 layout: post
-date: 2018-05-10 00:44
+date: 2018-05-12 01:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -241,7 +241,7 @@ c언어의 경우 힙영역으로 접근을 위해서는 반드시 포인터를 
 
 - 전달되는 인자가 왼쪽에서부터 채워지므로 , 함수의 디폴트 인자 값은 오른쪽에서부터 채워져야 한다. 왼쪽부터 채워지면 컴파일 에러가 생긴다.
 
-```c++
+​```c++
 #include<iostream>
 
 void Myfun(int a, int b,int c=20); //함수2 선언 (디폴트 값은 오른쪽에서부터 채워져야한다)
