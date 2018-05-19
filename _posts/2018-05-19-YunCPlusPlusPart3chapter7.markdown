@@ -13,199 +13,66 @@ description: Fundamental Programming
 ---
 ## Title : Part03 객체지향의 전개
 
-### Chapter 06 Friend와 static 그리고 Const 
+### Chapter 07 상속(Inheritance)이해 
 
-**06-1 Const와 관련해서 아직 못다한 이야기**
+**07-01 상속에 들어가기에 앞서**
 
-* 객체에도 Const선언이 가능하다. 객체의 멤버 변수의 변경을 허용하지 않는다.
+* 상속은 클래스를 재활용하기 위해 사용하는것은 아닙니다.
+* 좋은 코드는 요구사항의 변경 및 기능의 추가에 따른 변경이 최소화되어야 한다. 그리고 이를 위해 해결책을 상속이 사용된다.
 
-* 함수 의 const 선언 유무로 함수 오버로딩의 조건이 된다.
 
-* const 객체 또는 참조자를 대상으로 멤버함수 호출시 const 선언된 멤버 함수가 호출된다.
 
-  ```c++
-  class Sosimple
-  {
-      
-      void SimpleFunc()
-      {
-          
-      }
-      
-      
-      void SimpleFunc() const
-      {
-          
-      }
-  };
-  
-  void Yourfunc(const Sosimple &obj)
-  {
-      obj.Simplefunc(); //const SimpleFunc 호출한다.
-  }
-  
-  int main()
-  {
-     Sosimple obj(2);
-     const Sosimple obj2(7);
-     Yourfunc(obj1);
-     Yourfunc(obj2);
-      return 0;
-  }
-  
-  ```
+**07-02 상속의 문법적인 이해**
 
-  
+* A<-B  : B클래스가 A클래스 를 상속했다.
+* B클래스가 A클래스를 상속하면서 A클래스의 데이터 함수를 사용할수 있다.
+* B의 초기화 할때 A의 초기화 데이터도 인자값을 전달 해주어야 한다.
 
 ```c++
-// ConsoleApplication12.cpp: 콘솔 응용 프로그램의 진입점을 정의합니다.
-//
-
-#include "stdafx.h"
-#include<iostream>
-class SoSimple
+class Person
 {
-private:
-	int num;
-public :
-	SoSimple(int n) :num(n)
-	{
-
-	}
-
-	SoSimple& AddNum(int n)
-	{
-		num += n;
-		return *this;
-	}
-
-	void ShowData()const
-	{
-		std::cout <<"num:"<< num << std::endl;
-	}
-
-};
-
-
-int main()
-{
-	const SoSimple  obj(7);
-	//obj.AddNum(5);
-	obj.ShowData();
-
-    return 0;
+    private :
+    int age;
+    char name[50];
+    public :
+    Person(int Myage,char * myname):age(myage)
+    {
+        strcpy(name,myname);
+    }
+    
 }
 
+class UnivStudent : public Person
+{
+private:
+	char major[50];
+public :
+		UnivStudent(char * myname,int myage,char* mymajor):Perosn(myage,myname)
+        {
+        strcpy(myjor,mymajor);
+        }
 
+}
 ```
 
 
 
-**Chapter 06-02 클래스와 함수에 대한 friend**
+---------------------
 
-* 나의 private 영역에 접근을 허용한다.
-* 정보은닉에 위배된다.
+| Person             | UnivStudent         |
+| ------------------ | ------------------- |
+| 상위 클래스        | 하위클래스          |
+| 기초(Base)클래스   | 유도(Derived)클래스 |
+| 슈퍼(Super) 클래스 | 서브(Sub)클래스     |
+| 부모클래스         | 자식클래스          |
 
-**Chapter -06-03 C++에서의 Static란?**
-
-*  전역변수 / 지역변수에 Static 선언이 가능하고 할당이 되면 프로그램 종료 될때까지 메모리에 
-
-  할당 된다.
-
-* 지역변수에 static의 의미.
-
-  *  한번만 초기화 되고 지역변수와 달리 함수를 빠져나가도 소멸되지 않는다.
-
-* 전역변수에 static의 의미  
-
-  * 선언된 파일 내에서만 참조를 허용하겠다는 의미
-
-* 클래스의 멤버 변수와 멤버 함수에도 static 키워드가 가능하다.
-
-* 클래스의 static 멤버변수 선언시
-
-  * 프로그램이 종료되어야 메모리에 종료된다.
-  * 딱 하나만 존재한다.
-  * 접근 방법 클래스명::멤버변수 로 접근한다.(public으로 선언되어야한다.)
-  * 클래스간의 같은 메모리 공간을 공유한다.
-
-  ```c++
-  class SoSimple
-  {
-    private:
-      static int simObjcnt //static 멤버 변수 , 클래스 변수
-    
-  };
-  
-  int SoSimple::simObjcnt=0;
-  //초기화 방법
-  
-  int main()
-  {
-      SoSimple sim1;  
-      SoSimple sim2;
-      SoSimple sim3;
-      //simObjcnt는 sim1,sim2,sim3에 공유된다.
-  }
-  ```
-
-```c++
-
-
-```
-
-
-
-static 멤버함수
-
-* 선언된 클래스의 모든 객체가 공유한다.
-
-* public 으로 선언이 되면 클래스의 이름을 이용해서 호출이 가능하다.
-
-* 객체의 멤버로 존재하는  것이 아니다.
-
-* static 함수는 객체 내에 존재하는 함수가 아니기 때문에 멤버 변수나 멤버 함수 접근이 불가능하다. static 함수는 static 변수에만 접근이 가능하고 static 함수만 호출 가능하다.
-
-  ```c++
-  class SoSimple
-  {
-    private 
-       int num1;
-      static int num2;
-     public :
-      static void adder(int n)
-      {
-          num1+=n;//컴파일 에러
-          num2+=n;//
-      }
-  };
-  ```
-
-  
-
-const static 멤버와 mutable
-
-* const static의 멤버 변수는 클래스가 정의 될때 지정된 값이 유지되는 상수이기 때문에 위 예제에서 보이는 바와 같이 초기화가 가능하도록 문법을 정의하고 있다.
-
-  ```c++
-  class CountryArea
-  {
-    private :
-      mutable int num2;
-    public :
-      const static int russia=170540
-          void copynum2() const
-      {
-          num2=num1;
-          //mutable로 선언되 멤버 변수는 const함수내에서 값의 변경이 가능하다.
-      }
-  };
-  
-  int main(void)
-  {
-      std::cout<<"러시아 면적 "<<CountryArea::russia<<std::endl;
-      return 0;
-  }
-  ```
-
-  
+* 하위 클래스는 상위 클래스의 인자값을 받는 책임과 전달하는 책임을 가지므로써 생성자 호출을 한다.
+* 이니셜라이저를 통해서 유도 클래스는 기초클래스의 생성자를 명시적으로 호출해야한다.
+* 유도 클래스의 생성자는 기초 클래스의 멤버를 초기화 할 의무를 갖는다. 단 ! 기초클래스의 생성자를 명시적으로 호출해서 초기화한다. 때문에 유도 클래스 UnivStudent는 기초 클래스의 생성 호출을 위한 인자까지 함께 전달 받아야한다.
+* private 멤버는 유도 클래스에서도 접근이 불가능하므로, 생성장의 호출을 통해서 기초 클래스의 멤버를 초기화 해야한다.
+* 기초 클래스의 Private의 멤버 변수는 유도 클래스에서도 접근이 불가능하다.
+* 유도 클래스에서 기초클래스의 명시적 생성자를 정의를 안하면 void 기초클래스의 생성자를 호출한다.
+* 유도 클래스의 소멸자가 실행된 이후에 기초 클래스의 소멸자가 실행된다.
+* 스택에서 생성된 객체의 소멸순서는 생성 순서와 반대가 된다.
+* 기초클래스의 멤버 대상의 동적할당은 기초클래스의 생성자를 통해서 소멸역시 기초 클래스의 소멸자를 통해서 소멸시킨다.
+*  
