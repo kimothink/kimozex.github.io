@@ -185,4 +185,61 @@ sosimple sim2(sim1);
   sosimple sim2(sim1);//명시적 형변환
   ```
 
+
+
+
+**Chapter 05-02 '깊은 복사와 얕은 복사'**
+
+* 객체 소멸시 문제가 되는 구조를 얕은 복사 라고 합니다.
+
+* 깊이 있게 다 복사한다. 깊은 복사 이다. 
+
+* 디폴트 생성자는 맴버 대 맴버 복사이다.
+
+* 얕은 복사는 복사된 객체와 복사한 객체의 포인터 같은 포인터를 참조한다. 그러므로 소멸시 복사된 객체까지 소멸 되므로 문제가 된다.
+
   
+
+  **Chapter 05-03 '복사 생성자의 호출 시점**
+
+  ```c++
+  Person Man1("Lee dong woo",29);
+  Person Man2=Man1;
+  
+  SoSimple SimpleFuncobj(SoSimple ob)
+  {
+      ....
+      return ob; //case2;
+  }
+  
+  int main(void)
+  {
+      Sosimple obj;
+      SimpleFuncobj(obj);//case2
+      return 0;
+  }
+  ```
+
+  
+
+  * case 1 : 기존에 생성된 객체를 이용해서 새로운 객체를 초기화 하는 경우
+
+  * case 2 : Call-by Value 방식의 함수 호출 과정에서 객체를 인자로 전달하는 경우
+
+  * case 3 : 객체를 반환하되, 참조형으로 반환하지 않는경우
+
+    Temporary object 임시객체 : 다음행이 되면 사라진다. 
+
+    Temporary object는 const 참조라일 경우 가능하다.
+
+    ```c++
+    const Temporary &ref=Temporary(100); //우측은 임시객체이다.
+    ```
+
+    
+
+    
+
+    
+
+   
