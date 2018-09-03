@@ -1,0 +1,82 @@
+---
+title: "[Winform]폼간에 데이터 전송"
+layout: post
+date: 2018-09-04 00:44
+image: /assets/images/markdown.jpg
+headerImage: true
+tag:
+- WinForm
+- C#
+star: flase
+category: blog
+author: john Ko
+description: WinForm
+---
+## Title : 폼간에 데이터 전송
+
+### 부모폼에서 자식폼으로 데이터 전송 
+
+
+```
+//Form2
+public class Form2
+{
+   ...
+   public string MyProperty { get; set; }
+
+   private void Form2_Load(object sender, EventArgs e)
+   {
+       MessageBox.Show(this.MyProperty);
+   }
+}
+
+//Form1 
+public void button1_Click(object sender, EventArgs e)
+{
+    string departmentName = "IT";
+    Form2 frm2 = new Form2();
+    frm2.MyProperty = departmentName;
+    frm2.Show();
+    this.Hide();
+}
+
+```
+
+### 자식폼에서 부모폼으로 데이터 전송 
+```
+   
+   //Form2
+   public Action<string> SendMsg
+   {
+        get;
+        set;
+   }
+
+   private void button1_Click(object sender, EventArgs e)
+   {
+       if (SendMsg == null)
+           return;
+       SendMsg(this.textBox1.Text);
+   }
+
+   //Form1
+   private void button1_Click(object sender, EventArgs e)
+    {
+      Form2 frm = new Form2();
+      frm.SendMsg = this.SetMgr;
+      frm.ShowDialog();
+    }
+
+    private void SetMgr(string msg)
+    {
+        this.textBox1.Text = msg;
+    }
+```
+
+
+
+
+
+
+
+
