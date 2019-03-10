@@ -1,0 +1,31 @@
+---
+title: "개발자 블로그"
+layout: post
+date: 2019-03-11 01:12
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- Devblog
+star: false
+category: blog
+author: john Ko
+description: Devblog
+---
+
+### dotnetDev blog
+유지혜님 블로그
+https://yoosple.com/
+https://jasmintime.com/
+
+정요한님 깃페이지
+https://github.com/ingyeoking13
+
+
+### C++ bolg 
+
+
+
+
+
+
+
