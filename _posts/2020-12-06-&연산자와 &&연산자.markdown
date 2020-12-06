@@ -1,0 +1,34 @@
+---
+title: "&&와 & / || 와 |의 차이점"
+layout: post
+date: 2018-05-10 00:44
+image: /assets/images/markdown.jpg
+headerImage: true
+tag:
+- CSharp
+star: flase
+category: blog
+author: john Ko
+description: 
+---
+## Title : CSharp의 &&와 &의 차이점
+'''
+   class Program
+    {
+        static void Main(string[] args)
+        {
+            bool AndTest01 = false & true;
+
+            bool AndTest02 = false && true;
+
+            Console.WriteLine(AndTest01);
+            Console.WriteLine(AndTest02);
+       
+        }
+
+    }
+'''
+
+&는 bool AndTest01 = false & true; 전체 조건을 확인후 AndTest01에 false 가 입력된다.
+&&는 첫번째 조건이 false일 경우 다음 조건을 확인하지 않습니다.
+ 
